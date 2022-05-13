@@ -24,3 +24,18 @@ Read nginx stdout using
 ```bash
 docker-compose logs
 ```
+## Trust CA
+### Firefox
+Settings > Privacy & Security > Certificates: View Certificates > Import... > certs/devCA.pem
+
+### Linux system-wide using trust
+```bash
+sudo trust anchor certs/devCA.pem
+```
+Remove the certificate using
+```bash
+sudo trust anchor --remove certs/devCA.pem
+```
+
+### Other OS/application
+Information is readily available on the internet.
