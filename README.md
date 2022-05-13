@@ -1,6 +1,7 @@
 # dev-https-nginx-proxy
 If you just want a simple localhost https reverse proxy for your development environment. Not tested for Windows or Mac.
 
+! Valid until Sat, 13 May 2023
 ## Dependencies
 * docker
 * docker-compose
