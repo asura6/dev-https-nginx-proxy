@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  nginx-localhost:
+    image: nginx
+    container_name: nginx-localhost
+    restart: unless-stopped
+    volumes:
+      - "./conf.d/:/etc/nginx/conf.d"
+      - "./certs/:/etc/nginx/certs"
+    ports:
+      - "443:443"
+    extra_hosts:
+      - host.docker.internal:host-gateway
