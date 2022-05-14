@@ -23,7 +23,7 @@ host.docker.internal might have some other alias for non-Linux OS.
 ## Run
 Run with docker-compose as
 ```bash
-docker-compose up -d
+docker-compose up
 ```
 
 Read nginx stdout using
@@ -44,4 +44,4 @@ sudo trust anchor --remove certs/devCA.pem
 ```
 
 ### Other OS/application
-Information is readily available on the internet.
+TBD
