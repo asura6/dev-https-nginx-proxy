@@ -3,7 +3,7 @@ If you just want a simple localhost https reverse proxy for your development env
 
 ! Valid until Sat, 13 May 2023
 ## Is this safe?
-No. By trusting the supplied root CA you are trusting that I have not signed any malicious domains using it. I'll tell you that I have not but I recommend you to create your own root CA and sign your own certificates. You can find instructions on how to do so here:
+No. By trusting the supplied root CA you are trusting that I have not signed any malicious domains using it. I'll tell you that I have not but I still recommend that you to create your own root CA and sign your own certificates. You can find instructions on how to do so here:
 
 https://risaksson.com/post/10/2022-05-13/HTTPS-enabled-development-environments
 
